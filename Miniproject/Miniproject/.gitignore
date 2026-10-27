@@ -1,0 +1,35 @@
+# Compiled class files
+*.class
+out/
+bin/
+**/out/
+**/bin/
+
+# Persistence and generated logs
+data/*.bin
+logs/*.log
+reports/*.txt
+**/data/*.bin
+**/logs/*.log
+**/reports/*.txt
+!**/data/.gitkeep
+!**/logs/.gitkeep
+!**/reports/.gitkeep
+
+# IDE / Editor folders
+.vscode/*
+!.vscode/settings.json
+**/.vscode/*
+!**/.vscode/settings.json
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
